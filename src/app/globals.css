@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .hero1{
+        background-color: #F1DFF1;
+        position: relative;
+    }
+    .hero1-ball{
+        position: absolute;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .hero1-header1 h5{ 
+        border-radius: 20px
+        text-#1E40AF
+    }
+    .service1-img{
+        vertical-align: middle;
+        color: aliceblue;
+        font-size: large;
+        
+    }
+    .tst-btn{
+        padding: 10px;
+     
+       background-color: #1E40AF;
+       color:black;
+       text:2xl;
+       position: absolute;
+       bottom: 30px;
+       left: 30px;
+    }
+    .tst-btn :hover{
+        scale: 10px;
+    }
+    .cngslide{
+        background: #f2e9ff
+    }
+    .gallery{
+        width: 100%;
+        height: auto;
+;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    }
+    .img-box{
+      width: 200px;
+      height: 500px;
+      margin: 10px;
+      background: url(https://psdlearning.com/wp-content/uploads/2020/04/2173df74a356e89b40b18897e1b8655d.jpeg);
+      background-size: cover;  
+      background-position: center;
+      position: relative;
+      transition: width 0.5s;
+    }
+    .img-box:nth-child(2)
+    {
+        background: url(https://th.bing.com/th/id/OIP.Nolz7WP6ihgX54G98AcWnAHaEo?rs=1&pid=ImgDetMain);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .img-box:nth-child(3)
+    {
+        background: url(https://th.bing.com/th/id/R.87fd3376ab04820baa51c3c9771fc08d?rik=UzprhlgK%2f7RojQ&pid=ImgRaw&r=0);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .img-box:nth-child(4)
+    {
+        background: url(https://th.bing.com/th/id/R.7a3871fda2601d14fda4982906b81e29?rik=fn0EK1DiS3FOQg&pid=ImgRaw&r=0);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+
+    .img-box:nth-child(5)
+    {
+        background: url(https://th.bing.com/th/id/OIP._CpSijnZ3YaRIULvAVAAKAHaFo?rs=1&pid=ImgDetMain);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .img-box:nth-child(6)
+    {
+        background: url(https://th.bing.com/th/id/R.99d289c3147008dd9e1b04468a0e25eb?rik=hJX4KLqFKbI5Ug&pid=ImgRaw&r=0);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .img-box:nth-child(7)
+    {
+        background: url(https://th.bing.com/th/id/R.2bf10c5bfc67d696b1cf3a5933559fb5?rik=X3I%2bJWK14AxcIQ&pid=ImgRaw&r=0);
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .img-box h2{
+        color: #fc25fc;
+        text-align: center;
+        font: bold;
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        opacity: 0;
+    }
+    .img-box p{
+        opacity: 0;
+ transform: translate(20);
+    }
+    .img-box:hover{
+        width: 300px;
+        cursor: pointer;
+    }
+    .img-box:hover h2{
+       opacity: 100;
+       
+    }
+    .img-box:hover p
+    {
+        opacity: 100;
+       
+     }
+     .innovation{
+        position: relative;
+     }
+     .inno-img{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+     }
+     .inno-image2{
+        position: absolute;
+        top: 150px;
+        left: 20px;
+
+     }
+     .inno-1:hover {
+background-color: #b30808fa;
+background-image: linear-gradient(green,blue);
+display: block;
+     }
+
+
+
+
+
+
